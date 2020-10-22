@@ -1,0 +1,72 @@
+.u-margin-bottom-small {
+    margin-bottom: 1.5rem !important;
+  }
+  
+  .u-center-text {
+    text-align: center !important;
+  }
+  
+  .u-margin-bottom-medium {
+    margin-bottom: 4rem !important;
+  
+    @include respond(tab-port) {
+      margin-bottom: 3rem !important;
+    }
+  }
+  
+  .u-margin-bottom-big {
+    margin-bottom: 8rem !important;
+  
+    @include respond(tab-port) {
+      margin-bottom: 5rem !important;
+    }
+  }
+  
+  .paragraph {
+    width: 70%;
+    font-size: 1.7rem;
+    line-height: 3rem;
+    text-transform: capitalize;
+    color: $color-text-primary;
+  
+    @include respond(phone){
+      width: 100%!important;
+    }
+  
+    &--2 {
+      width: 50%;
+      margin: 0 auto;
+    }
+  
+    &--3 {
+      width: 80%;
+    }
+  
+    &--center {
+      text-align: center;
+    }
+  }
+  
+  
+  .container {
+    width: $container-width;
+    margin: 0 auto;
+  
+    @include respond(tab-port) {
+      width: 80vw;
+    }
+  
+    &__flex {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .u-uppercase {
+    text-transform: uppercase;
+  }
+
+  .container-flex {
+    display: flex;
+    flex-direction: column;
+  }

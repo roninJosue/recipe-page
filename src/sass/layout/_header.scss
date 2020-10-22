@@ -1,0 +1,30 @@
+.header {
+    padding: 2rem 0 13rem;
+
+    @include respond(phone) {
+        padding-bottom: 5rem;
+    }
+}
+
+.logo {
+    padding: .89rem;
+    color: #fff;
+    border: 1px solid #fff;
+    font-family: 'Crimson Pro', sans-serif;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.menu-icon {
+    color: #fff;
+    font-size: 4rem;
+    position: relative;
+    margin-bottom: 3rem;
+    display: none;
+    cursor: pointer;
+
+    @include respond(phone) {
+        display: inline;
+    }
+}
