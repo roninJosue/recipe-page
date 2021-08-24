@@ -1,0 +1,20 @@
+.instruction {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-between;
+
+  &-number {
+    font-family: 'Playfair Display', sans-serif;
+    background-color: #F2994A;
+    color: #fff;
+    border-radius: 6px;
+    flex-basis: 32px;
+    font-size: 2rem;
+  }
+
+  &-description {
+    flex-basis: 90%;
+    text-align: justify;
+  }
+}
