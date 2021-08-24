@@ -1,4 +1,18 @@
-import './sass/main.scss'
-import './static/img/photo1.png'
-import './static/img/6dots.svg'
+import { Container } from "react-bootstrap";
+import Title from "./components/Title";
+import ImageRecipe from "./components/ImageRecipe";
+import RecipeContainer from "./components/RecipeContainer";
 
+function App() {
+  return (
+    <Container>
+      <Title />
+      <main>
+        <ImageRecipe />
+        <RecipeContainer />
+      </main>
+    </Container>
+  );
+}
+
+export default App;

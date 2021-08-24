@@ -1,0 +1,17 @@
+#head{
+  background: var(--bg-color);
+  color: var(--color-text);
+  top: 0;
+  padding: 1rem 1.6rem;
+  position: fixed;
+  z-index: 99999;
+  width: 100%;
+
+  .icon-theme {
+    cursor: pointer;
+  }
+
+  i {
+    font-size: 2.5rem;
+  }
+}
