@@ -8,7 +8,7 @@ const InstructionsList = () => {
       {instructions.map((instruction) => {
         return <Instruction instruction={instruction} />
       })}
-      <a className='source' target='_blank' href="https://www.quericavida.com/recetas/nacatamal/f02a0ae8-e434-4108-80b6-cb3ac66b9703">
+      <a className='source' rel='noreferrer' target='_blank' href="https://www.quericavida.com/recetas/nacatamal/f02a0ae8-e434-4108-80b6-cb3ac66b9703">
         Source
       </a>
     </div>
