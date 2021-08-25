@@ -5,7 +5,7 @@ import {Image} from "react-bootstrap";
 const ImageRecipe = () => {
   return (
     <section id="recipe-image">
-      <Image src={image} fluid />
+      <Image src={image} fluid rounded />
     </section>
   );
 }
