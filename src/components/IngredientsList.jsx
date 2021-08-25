@@ -6,19 +6,19 @@ const IngredientsList = () => {
   return (
     <>
       <h2 className='ingredients-heading'>Ingredientes</h2>
-      <h4 className='text-left ingredients-title'>Para el relleno</h4>
+      <h3 className='text-left ingredients-title'>Para el relleno</h3>
       <ul className='ingredients-list'>
         {fillingIngredients.map((ingredient) => {
           return <Ingredient key={ingredient.id} ingredient={ingredient} />
         })}
       </ul>
-      <h4 className='text-left ingredients-title'>Para la masa</h4>
+      <h3 className='text-left ingredients-title'>Para la masa</h3>
       <ul className='ingredients-list'>
         {doughIngredients.map((ingredient) => {
           return <Ingredient key={ingredient.id} ingredient={ingredient} />
         })}
       </ul>
-      <h4 className='text-left ingredients-title'>Ingredientes principales</h4>
+      <h3 className='text-left ingredients-title'>Ingredientes principales</h3>
       <ul className='ingredients-list'>
         {mainIngredients.map((ingredient) => {
           return <Ingredient key={ingredient.id} ingredient={ingredient} />
