@@ -1,0 +1,30 @@
+.ingredients{
+  &-list{
+    text-align: left;
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0 2rem;
+  }
+
+  &-title{
+    font-style: italic;
+    font-size: 2rem;
+  }
+
+  &-item{
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    input[type='checkbox'] {
+      margin-right: 1rem;
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  &-heading {
+    font-size: 3rem;
+    text-align: left;
+    margin-bottom: 2rem;
+    font-weight: bold;
+  }
+}
