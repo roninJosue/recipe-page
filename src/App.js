@@ -11,6 +11,9 @@ function App() {
         <ImageRecipe />
         <RecipeContainer />
       </main>
+      <footer className='footer'>
+        Reynaldo Josué Cano Bárcenas@DevChallenges.io
+      </footer>
     </Container>
   );
 }
